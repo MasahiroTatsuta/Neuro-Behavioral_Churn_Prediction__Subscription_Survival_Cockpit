@@ -183,11 +183,9 @@ penalizer = 0.1
 Cox比例ハザードは
 
 $$
-\lambda(t|X)
-=
-\lambda_0(t)
-\exp
-\left(
+\lambda(t|X) =
+\lambda_0(t) \\
+\times \exp\left(
 \sum_i \beta_i X_i
 \right)
 $$
