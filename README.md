@@ -9,7 +9,7 @@
 
 ```
 neuro-behavioral-churn-prediction/
-├── README.md                          # 最高傑作の分析報告書・解説書
+├── README.md                          # 分析報告書・解説書
 ├── .gitignore                         # 不要ファイルや大容量データ、秘密情報の除外設定
 ├── requirements.txt                   # 再現性を担保するためのPython依存パッケージリスト
 │
@@ -27,7 +27,7 @@ neuro-behavioral-churn-prediction/
     ├── raw/                           # Google BigQueryから抽出した直後の生データ
     │   └── bq特徴量.csv (Git管理除外)
     └── processed/                     # モデル予測結果付きのTableau用データ
-        └── tableau_churn_alert_data.csv (Git LFS管理またはGit除外推奨)
+        └── tableau_churn_alert_data.csv (Git管理除外)
 ```
 ---
 
