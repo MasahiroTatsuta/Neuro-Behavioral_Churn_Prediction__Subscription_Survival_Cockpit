@@ -1,0 +1,81 @@
+# ==========================================
+
+# Neuro-Behavioral Churn Prediction Project
+
+# gitignore templates for Python & Data Science
+
+# ==========================================
+
+# --- [CRITICAL] Data Protection & Volume Rules ---
+
+# 大容量・実顧客データファイルを誤ってパブリックコミットから完全に保護・除外する
+bq特徴量.csv
+tableau_churn_alert_data.csv
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.json
+
+# W&BなどのJSONアセット、Optunaダッシュボード一時ファイルを保護
+*.table.json
+
+# dataフォルダ以下を基本すべて除外（フォルダ構成を保つための.gitkeepを除く）
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# --- Python Environment & Build Artifacts ---
+
+# 仮想環境やビルド、Jupyterキャッシュ
+
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+pip-selfcheck.json
+requirements_local.txt
+
+pycache/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- MLOps & Experiment Tracking (W&B / Optuna) ---
+
+# Weights & Biases のローカルログやダッシュボードの一時生成フォルダ
+
+wandb/
+.wandb/
+artifacts/
+optuna_study.db
+*.log
+
+# --- OS & IDE Temporary Files ---
+
+# OS固有の一時生成キャッシュ（Mac/Windows）
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE（VS Code / PyCharm）の一時ファイル
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
