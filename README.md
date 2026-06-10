@@ -286,7 +286,7 @@ C-index = 0.8732
 すべての実験履歴をWeights & Biasesで管理し、トレーサビリティを確保しました。
 * **🌐 Weights & Biases 開発ログ:** [W&B Experiment Tracking Dashboard（実験履歴を見る）](https://wandb.ai/tcumepapam3d2-personal-project/neuro-behavioral-churn-pipeline/workspace?nw=nwusertcumepapam3d2)
 
-### 🧠 Feature Importance
+### 🧠 特徴量重要度
 
 | Rank | Feature | Importance |
 |----------|----------|----------:|
@@ -313,7 +313,7 @@ XGBoostでも圧倒的な重要度1位となりました。
 
 ## 🎨 8. Tableauダッシュボード設計
 
-### 🏆 Dashboard Name
+### 🏆 ダッシュボード名
 
 **Neuro-Behavioral Churn Prediction & Subscription Survival Cockpit**
 * **[Tableauダッシュボード]** (https://public.tableau.com/views/Neuro-BehavioralChurnPredictionSubscriptionSurvivalCockpit/1?:language=ja-JP&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
@@ -433,7 +433,7 @@ CRITICALドットが埋もれる問題に対し、
 
 ---
 
-## 🏁 Conclusion
+## 🏁 結論
 
 本プロジェクトでは、
 
